@@ -1,3 +1,36 @@
+本项目简介
+
+技术选型
+
+脚手架    ------    npx create-react-app my-app
+UI层    ------    React
+路由    ------    React Router
+状态管理    ------  redux 
+http    ------  Axios
+
+目录结构
+public
+    ------mock 模拟数据
+src
+    ------components 公共组件
+    ------containers 各个页面文件
+    ------images 存放图片
+    ------redux redux-thunk react-redux 状态管理
+    ------utils 公共工具类
+
+.gitignore------ git忽略文件
+ package.json------配置文件
+
+构建体系
+
+
+Mock数据
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +99,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
