@@ -6,7 +6,7 @@
 UI层    ------    react
 路由    ------    react router react--router-dom
 状态管理    ------  redux  redux-thunk react-redux 
-http    ------  Axios
+http    ------  fetch
 
 目录结构
 public
