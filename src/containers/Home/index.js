@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import Category from "./components/Category";
 import Headline from "./components/Headline";
 import Discount from "./components/Discount";
-// import LikeList from "./components/LikeList";
+import LikeList from "./components/LikeList";
 // import HomeHeader from "./components/HomeHeader";
 // import Footer from "../../components/Footer";
 // import Banner from "../../components/Banner";
@@ -18,8 +18,8 @@ import {
 
 class Home extends Component {
   render() {
-    // const {likes, discounts, pageCount} = this.props
-    const {discounts,} = this.props
+    const {likes, discounts, pageCount} = this.props
+
     return (
       <div>
         {/* <HomeHeader /> */}
@@ -28,7 +28,7 @@ class Home extends Component {
         <Headline />
         {/* <Activity /> */}
         <Discount data = {discounts}/>
-        {/* <LikeList data = {likes} pageCount = {pageCount} fetchData = {this.fetchMoreLikes}/> */}
+        <LikeList data = {likes} pageCount = {pageCount} fetchData = {this.fetchMoreLikes}/>
         {/* <Footer /> */}
       </div>
     );
