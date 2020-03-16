@@ -5,10 +5,10 @@ import Category from "./components/Category";
 import Headline from "./components/Headline";
 import Discount from "./components/Discount";
 import LikeList from "./components/LikeList";
-// import HomeHeader from "./components/HomeHeader";
-// import Footer from "../../components/Footer";
-// import Banner from "../../components/Banner";
-// import Activity from "./components/Activity";
+import HomeHeader from "./components/HomeHeader";
+import Footer from "../../components/Footer";
+import Banner from "../../components/Banner";
+import Activity from "./components/Activity";
 import {
   actions as homeActions,
   getLikes,
@@ -22,14 +22,14 @@ class Home extends Component {
 
     return (
       <div>
-        {/* <HomeHeader /> */}
-        {/* <Banner /> */}
+        <HomeHeader />
+        <Banner />
         <Category />
         <Headline />
-        {/* <Activity /> */}
+        <Activity />
         <Discount data = {discounts}/>
         <LikeList data = {likes} pageCount = {pageCount} fetchData = {this.fetchMoreLikes}/>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
