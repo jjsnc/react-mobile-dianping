@@ -23,7 +23,7 @@ class LikeList extends Component {
         {pageCount < 3 ? (
           <Loading />
         ) : (
-          <a href="http://www.baidu.com" className="likeList__viewAll">查看更多</a>
+        <span className="likeList__viewAll">查看更多</span>
         )}
       </div>
     );

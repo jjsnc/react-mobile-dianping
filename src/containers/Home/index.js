@@ -19,7 +19,6 @@ import {
 class Home extends Component {
   render() {
     const {likes, discounts, pageCount} = this.props
-
     return (
       <div>
         <HomeHeader />
